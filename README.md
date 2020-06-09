@@ -1,4 +1,3 @@
-
 # Twilio Video React
 
 ## What is it
@@ -77,6 +76,17 @@ Build the React app with
 
 This script will build the static assets for the application in the `build/` directory.
 
+### Running On Multiple Devices
+
+You can use [ngrok](https://ngrok.com/) to try your application
+on different devices by creating a secure tunnel to your application server:
+
+```bash
+ngrok http 3000
+```
+
+You will get a URL of the form `https://a1b2c3d4.ngrok.io` which can be loaded on a browser from a device
+different than the one where your application server is running.
 
 ## Features
 
